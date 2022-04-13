@@ -301,7 +301,6 @@ set_unapache2(){
 
 # 安装流程
 set_install(){
-	get_version
 	install_frps
 	add_auto_run
 	run_frps
