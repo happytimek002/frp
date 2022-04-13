@@ -12,7 +12,7 @@
 
 # 安装frps
 install_frps(){
-	wget -N --no-check-certificate $https://one1m.shiziz.workers.dev/Tu/frp_0.41.0_linux_amd64.zip
+	wget https://one1m.shiziz.workers.dev/Tu/frp_0.41.0_linux_amd64.zip
 
 	tar -zxvf frp*.tar.gz
 
